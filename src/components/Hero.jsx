@@ -12,7 +12,7 @@ const Hero = () => {
       animate={{y:0,opacity:1}}
       transition={{duration:0.8,delay:0.2}}
       >
-        <img src={image} alt="" className="w-[100px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[300px]"/>
+        <img src={image} alt="" className="w-[100px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[200px]"/>
 </motion.div>
 <motion.div 
 initial={{y:50,opacity:0}}

@@ -1,19 +1,14 @@
-import img1 from "/public/img1.jpg";
+import img1 from "/public/img1.png";
 import { motion } from "framer-motion";
 
 const projData =[
     {
         image:img1,
-        title:'weather app',
-        description:'realtime update on the weather.rom robotic kinematics and control systems to real-world autonomous applications, this course has deepened my understanding of how intelligent machines interact with the physical world.Excited to apply these skills in future projects focused on automation, AI, and robotics innovation.',
-        technologies:["html","css","javascript"]
+        title:'Real-time Chat Application',
+        description:'Real-time chat application built with React and Firebase that enables seamless messaging between users. It features a responsive user interface with a left sidebar displaying chats and a chatbox for conversations. Users can search for others, initiate new chats, send text messages and images, and see message status updates. The app leverages Firestore for data storage and real-time updates, providing a smooth and interactive messaging experience across devices.',
+        technologies:["React","Firebase"]
     },
-     {
-        image:img1,
-        title:'weather app',
-        description:'realtime update on the weather.rom robotic kinematics and control systems to real-world autonomous applications, this course has deepened my understanding of how intelligent machines interact with the physical world.Excited to apply these skills in future projects focused on automation, AI, and robotics innovation.',
-        technologies:["html","css","javascript"]
-    },
+     
     
 ]
 

@@ -35,11 +35,11 @@ const Navbar = () => {
        </ul>
 
        <ul className="hidden md:flex gap-5">
-        <a href=" ">
+        {/* <a href=" ">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100">
             <BsInstagram/>
         </li>
-        </a>
+        </a> */}
         
         <a href="https://www.linkedin.com/in/golda-john-a4b712295/">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
@@ -85,9 +85,9 @@ const Navbar = () => {
        </ul>
 
        <ul className="flex flex-wrap gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100">
+        {/* <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100">
             <BsInstagram/>
-        </li>
+        </li> */}
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
             <BsLinkedin/>
