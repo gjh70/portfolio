@@ -27,7 +27,8 @@ const ProjectCard = ({project}) =>{
 return (
     <ScrollReveal>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-        <img src={project.image} alt="" className="max-w-[300px] cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:max-w-[500px] w-full"/>
+        <a href="https://chat-app-phi-seven-91.vercel.app/">
+        <img src={project.image} alt="" className="max-w-[300px] cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:max-w-[500px] w-full"/> </a>
         <div className="flex flex-col gap-5 ">
             <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
