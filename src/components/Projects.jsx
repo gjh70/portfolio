@@ -6,7 +6,8 @@ const projData =[
         image:img1,
         title:'Real-time Chat Application',
         description:'Real-time chat application built with React and Firebase that enables seamless messaging between users. It features a responsive user interface with a left sidebar displaying chats and a chatbox for conversations. Users can search for others, initiate new chats, send text messages and images, and see message status updates. The app leverages Firestore for data storage and real-time updates, providing a smooth and interactive messaging experience across devices.',
-        technologies:["React","Firebase"]
+        technologies:["React","Firebase"],
+        link:"https://chat-app-swart-tau.vercel.app/"
     },
      
     
@@ -25,10 +26,10 @@ const ScrollReveal= ({children}) => {
 
 const ProjectCard = ({project}) =>{
 return (
-    <ScrollReveal>
+    <ScrollReveal><a href= {project.link}>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-        <a href="https://chat-app-phi-seven-91.vercel.app/">
-        <img src={project.image} alt="" className="max-w-[300px] cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:max-w-[500px] w-full"/> </a>
+        
+        <img src={project.image} alt="" className="max-w-[300px] cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:max-w-[500px] w-full"/>
         <div className="flex flex-col gap-5 ">
             <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
@@ -43,6 +44,7 @@ return (
             </div>
         </div>
     </div>
+    </a>
     </ScrollReveal>
 )
 }
